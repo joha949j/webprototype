@@ -1,3 +1,6 @@
+/*==============================================================
+GENERELLE INDSTILLINGER
+==============================================================*/
 * {
     box-sizing: border-box;
 }
@@ -11,13 +14,18 @@ body {
     padding: 0;
 }
 
+/*==============================================================LOG IND SIDE
+==============================================================*/
+
+/*Header farve og størrelse til iPhone X*/
 .keaheader {
     background-color: #EA5045;
-    width: 500px;
+    width: 375px;
     height: 240px;
     position: relative;
 }
 
+/*KEA logo*/
 .keaimg {
     background-image: url(produktion/Group%201604.png);
     width: 127px;
@@ -25,7 +33,75 @@ body {
     background-repeat: no-repeat;
     position: absolute;
     top: 25vw;
-    left: 33vw;
+    left: 34vw;
 }
 
-.logind {}
+/*Parent div til form og input*/
+#logind {
+    position: relative;
+    background-color: #faf7f7;
+    height: 812px;
+    width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loginform {}
+
+/*input/form mail*/
+input[type=mail] {
+    width: 80%;
+    padding: 15px 22px;
+    margin: 10px 35px;
+    box-sizing: border-box;
+    border: 1px solid #faf7f7;
+    border-radius: 100px;
+    position: absolute;
+    top: 30vw;
+
+}
+
+/*input/form password*/
+input[type=pass] {
+    width: 80%;
+    padding: 15px 22px;
+    margin: 10px 35px;
+    box-sizing: border-box;
+    border: 1px solid #faf7f7;
+    border-radius: 100px;
+    position: absolute;
+    top: 50vw;
+
+}
+
+/*input/form continue*/
+input[type=submit] {
+    width: 80%;
+    padding: 15px 22px;
+    margin: 10px 35px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 1px solid;
+    background-color: #EA5045;
+    color: white;
+    position: absolute;
+    top: 90vw;
+}
+
+/*input/form login with facebook*/
+input[type=facebook] {
+    width: 80%;
+    padding: 15px 22px;
+    margin: 10px 35px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 1px solid #EA5045;
+    background-color: white;
+    color: #EA5045;
+    text-align: center;
+    background-image: url(produktion/Symbol%201.png);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    position: absolute;
+    top: 110vw;
+}
