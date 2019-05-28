@@ -17,17 +17,12 @@ body {
 /*==============================================================                              2. LOG IND SIDE
 ==============================================================*/
 
-#login {
-    height: 100%;
-    max-width: 375px;
-    margin: 0 auto;
-}
-
-
-/*Header farve og størrelse til iPhone X*/
-#login .keaheader {
+/*HEADER*/
+#header_login .keaheader {
     background-color: #EA5045;
     height: 240px;
+    max-width: 375px;
+    margin: 0 auto;
     position: relative;
     background-image: url(produktion/Group%201604.png);
     background-position: center;
@@ -35,6 +30,15 @@ body {
 
 }
 
+
+
+
+
+#login {
+    height: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+}
 
 
 
@@ -104,21 +108,23 @@ input[type=facebook] {
 
 /*==============================================================                                3. FORSIDE
 ==============================================================*/
-#forside {
-    height: 100%;
-    max-width: 375px;
-    margin: 0 auto;
-}
-
-
-#forside .keaheader {
+/*HEADER*/
+#header_forside .keaheader {
     background-color: #EA5045;
-    width: 100%;
     height: 50px;
     background-image: url(produktion/Group%201604.png);
     background-position: 20px;
     background-repeat: no-repeat;
+    max-width: 375px;
+    margin: 0 auto;
 
+}
+
+
+#forside {
+    height: 100%;
+    max-width: 375px;
+    margin: 0 auto;
 }
 
 
@@ -178,30 +184,6 @@ input[type=facebook] {
     flex-wrap: wrap;
     flex-direction: column;
 
-}
-
-.search {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    width: 110px;
-    height: 110px;
-    background-color: white;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
-}
-
-.afleveringer {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    width: 110px;
-    height: 110px;
-    background-color: white;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
 }
 
 .aktuelt {
