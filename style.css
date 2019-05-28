@@ -64,50 +64,31 @@ body {
     padding: 30px 20px;
 }
 
-/*.profile_menu {
-    display: flex;
-    flex-wrap: wrap;
-    width: 375px;
-    height: 75px;
-}*/
 
 .profil {
     display: flex;
     padding: 0 20px 0 200px;
 }
 
-/* burgermenu forside */
-
-/*.menuknap {
-    max-width: 4vw;
-    max-height: 4vw;
-    background-repeat: no-repeat;
-    z-index: 50;
-    display: flex;
-    justify-content: center;
-    align-content: right;
-}*/
-
-#profillogo {
-    background-image: url(Profile.svg);
-    width: 4vw;
-    height: 4vw;
-    background-size: cover;
-    position: absolute;
-    background-repeat: no-repeat;
-    top: 5vw;
-    right: 22vw
-}
-
-*/ #menu a {
+#menu a {
     text-decoration: none;
     font-family: "gibson", sans-serif;
     margin-bottom: 4vw;
     font-size: 1.5rem;
     font-weight: 600;
     color: #EA847C;
-    margin-top: 10vw;
-    text-align: center;
+    margin-top: 5vw;
+}
+
+#menuknap {
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 50;
+}
+
+.no {
+    padding: 0 0 0 300px;
 }
 
 .logudbox {
@@ -323,6 +304,10 @@ input[type=facebook] {
     font-size: 1rem;
     color: #F58E81;
     padding: 8px;
+}
+
+#pforside a {
+    text-decoration: none;
 }
 
 .text1 {
