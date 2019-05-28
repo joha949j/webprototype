@@ -14,7 +14,119 @@ body {
     padding: 0;
 }
 
-/*==============================================================                              2. LOG IND SIDE
+/*==============================================================                              2. BURGERMENU
+==============================================================*/
+
+/*menu*/
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+#menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    font-family: "gibson", sans-serif;
+    z-index: 11;
+    font-size: 1.5rem;
+    color: #EA5045;
+    background-color: #3F3140;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    transition: transform .4s;
+    max-width: 375px;
+    margin: 0 auto;
+
+
+}
+
+/* orange stykke i toppen af skærm */
+#orangebackground {
+    background-color: #EA5045;
+    max-width: 375px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.keaimage {
+    padding: 30px 20px;
+}
+
+/*.profile_menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+    height: 75px;
+}*/
+
+.profil {
+    display: flex;
+    padding: 0 20px 0 200px;
+}
+
+/* burgermenu forside */
+
+/*.menuknap {
+    max-width: 4vw;
+    max-height: 4vw;
+    background-repeat: no-repeat;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-content: right;
+}*/
+
+#profillogo {
+    background-image: url(Profile.svg);
+    width: 4vw;
+    height: 4vw;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 5vw;
+    right: 22vw
+}
+
+*/ #menu a {
+    text-decoration: none;
+    font-family: "gibson", sans-serif;
+    margin-bottom: 4vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #EA847C;
+    margin-top: 10vw;
+    text-align: center;
+}
+
+.logudbox {
+    background-color: #F58E81;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 1rem 0;
+
+}
+
+.logudtxt {
+    color: #FFFFFF;
+}
+
+/*menuslut*/
+
+/*==============================================================                              3. LOG IND SIDE
 ==============================================================*/
 
 /*HEADER*/
@@ -109,6 +221,14 @@ input[type=facebook] {
 /*==============================================================                                3. FORSIDE
 ==============================================================*/
 /*HEADER*/
+
+
+#header_forside {
+    max-width: 375px;
+    margin: 0 auto;
+
+}
+
 #header_forside .keaheader {
     background-color: #EA5045;
     height: 50px;
