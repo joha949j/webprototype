@@ -2,7 +2,7 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
     console.log("sidenVises");
-    document.querySelector(".menuknap").addEventListener("click", toggleMenu);
+    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 }
 
 function toggleMenu() {
@@ -10,7 +10,7 @@ function toggleMenu() {
     document.querySelector("#menu").classList.toggle("hidden");
     let erSkjult = document.querySelector("#menu").classList.contains("hidden");
     if (erSkjult == true) {
-        document.getElementById("menuknap").src = "produktion/Menu.svg";
+        document.getElementById("#menuknap").src = "produktion/Menu.svg";
     } else {
         document.getElementById("menuknap").src = "produktion/No.svg";
     }
