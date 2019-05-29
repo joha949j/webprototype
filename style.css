@@ -141,7 +141,7 @@ body {
     max-width: 375px;
     margin: 0 auto;
     position: relative;
-    background-image: url(produktion/Group%201604.png);
+    background-image: url(produktion/Group%201604.svg);
     background-position: center;
     background-repeat: no-repeat;
 
@@ -831,7 +831,7 @@ input[type=facebook] {
     font-weight: 100;
 }
 
-/*=================================================================                                    MATERIALER:                     ================================================================;*/
+/*=================================================================                                    6. MATERIALER:                    ================================================================;*/
 
 #materialer {
     display: flex;
