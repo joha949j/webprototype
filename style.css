@@ -48,7 +48,7 @@ body {
 
 }
 
-/* orange stykke i toppen af skærm */
+/* toppen af skærm */
 #orangebackground2 {
     background-color: #EA5045;
     max-width: 375px;
@@ -72,6 +72,7 @@ body {
     z-index: 50;
 }
 
+/*Kalender-ikon på Materialer siden */
 .kalender2 {
     width: 30px;
     height: 30px;
@@ -81,7 +82,7 @@ body {
 }
 
 
-
+/*Lille kea logo i headeren*/
 .kealogo2 {
     padding: 30px 20px;
     display: flex;
@@ -143,9 +144,7 @@ body {
 }
 
 
-
-
-
+/*Section ID*/
 #login {
     height: 100%;
     max-width: 375px;
@@ -164,10 +163,8 @@ body {
 
 }
 
-.loginform {}
-
 /*input/form mail*/
-input[type=mail] {
+input[type=email] {
     width: 80%;
     padding: 15px 22px;
     margin: 10px 35px;
@@ -178,7 +175,7 @@ input[type=mail] {
 }
 
 /*input/form password*/
-input[type=pass] {
+input[type=password] {
     width: 80%;
     padding: 15px 22px;
     margin: 10px 35px;
@@ -202,7 +199,7 @@ input[type=submit] {
 }
 
 /*input/form login with facebook*/
-input[type=facebook] {
+input[type=text] {
     width: 80%;
     padding: 15px 22px;
     margin: 10px 35px;
@@ -220,33 +217,12 @@ input[type=facebook] {
 
 /*==============================================================                                3. FORSIDE
 ==============================================================*/
-/*HEADER*/
-
-
-#header_forside {
-    max-width: 375px;
-    margin: 0 auto;
-
-}
-
-#header_forside .keaheader {
-    background-color: #EA5045;
-    height: 50px;
-    background-image: url(produktion/Group%201604.png);
-    background-position: 20px;
-    background-repeat: no-repeat;
-    max-width: 375px;
-    margin: 0 auto;
-
-}
-
 
 #forside {
     height: 100%;
     max-width: 375px;
     margin: 0 auto;
 }
-
 
 
 /*Parent div indstillinger*/
@@ -258,8 +234,7 @@ input[type=facebook] {
 
 }
 
-
-
+/*Fælles class for Materialer, Skema, Notifikationer, favoritter, grupper, chat, søg og afleveringer*/
 .menubox {
     display: flex;
     flex-grow: 1;
@@ -273,6 +248,7 @@ input[type=facebook] {
 
 }
 
+/*Techlounge div*/
 .techlounge {
     display: flex;
     flex-wrap: wrap;
@@ -285,6 +261,8 @@ input[type=facebook] {
     align-items: center;
 }
 
+
+/*Mail div*/
 .keamail {
     display: flex;
     flex-grow: 1;
@@ -299,6 +277,7 @@ input[type=facebook] {
 
 }
 
+/*parent div til Søg og Afleveringer*/
 .col2 {
     display: flex;
     flex-wrap: wrap;
@@ -306,6 +285,7 @@ input[type=facebook] {
 
 }
 
+/*Aktuelt store div.*/
 .aktuelt {
     display: flex;
     width: 220px;
@@ -316,6 +296,7 @@ input[type=facebook] {
     align-items: center;
 }
 
+/*font til alle undtagen tech og aktuelt*/
 .text {
     font-family: canada-type-gibson, sans-serif;
     font-style: semi-bold;
@@ -329,6 +310,7 @@ input[type=facebook] {
     text-decoration: none;
 }
 
+/*Techlounge font*/
 .text1 {
     font-family: canada-type-gibson, sans-serif;
     font-style: semi-bold;
@@ -337,6 +319,7 @@ input[type=facebook] {
     color: #F58E81;
 }
 
+/*aktuelt font*/
 .text2 {
     font-family: canada-type-gibson, sans-serif;
     font-style: semi-bold;
@@ -346,6 +329,8 @@ input[type=facebook] {
 }
 
 /*===============================================================                        4. SKEMA:                             ==============================================================;*/
+
+/*Section indstillinger*/
 #kalender {
     display: flex;
     flex-wrap: wrap;
@@ -355,13 +340,13 @@ input[type=facebook] {
 
 }
 
+/*Skema+tema Toppen også brugt i materialer siden*/
 .del1 {
     display: flex;
     justify-content: space-between;
     background-color: #DEDCDB;
     width: 375px;
     height: 77px;
-
 }
 
 .box1 {
@@ -377,7 +362,6 @@ input[type=facebook] {
     flex-direction: column;
     text-align: right;
     align-self: center;
-
 }
 
 .box1 h1 {
@@ -389,7 +373,7 @@ input[type=facebook] {
     padding-left: 14px;
 }
 
-.box1 p {
+.del1 p {
     font-size: 1rem;
     color: #707070;
     font-family: canada-type-gibson, sans-serif;
@@ -408,15 +392,7 @@ input[type=facebook] {
 
 }
 
-.box2 p {
-    font-size: 1rem;
-    color: #707070;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-right: 14px;
-}
-
+/*Kalender sektionens parent div også brugt i materialer siden*/
 .del2 {
     display: flex;
     background-color: #3F3140;
@@ -428,6 +404,7 @@ input[type=facebook] {
 
 }
 
+/*Fontene til Kalenderen også brugt på materialer siden*/
 .del2 h2 {
     margin: auto;
     font-size: 1rem;
@@ -458,6 +435,7 @@ input[type=facebook] {
 
 }
 
+/*Parent div for første modul*/
 .del3 {
     display: flex;
     flex-wrap: wrap;
@@ -465,23 +443,34 @@ input[type=facebook] {
     height: 120px;
 }
 
+/*Tid parent div*/
 .tid_con {
     display: flex;
     flex-direction: column;
 }
 
-.tid1 {
+/*tid div boxe*/
+.tid {
     border: solid 1px lightgray;
     width: 90px;
     height: 60px;
 }
 
-.tid2 {
-    border: solid 1px lightgray;
-    width: 90px;
-    height: 60px;
+/*tid tekst*/
+.tid p {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #BCC5D3;
+    padding-top: 6px;
 }
 
+/*Modul 1 boksen*/
 .modul1 {
     height: 120px;
     width: 270px;
@@ -490,41 +479,15 @@ input[type=facebook] {
     flex-direction: column;
 }
 
+/*Dokument ikonet*/
 .folder1 {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
 }
 
-.tid1 p {
-    margin: 0;
-    font-size: 1rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #BCC5D3;
-    padding-top: 6px;
-
-}
-
-.tid2 p {
-    margin: 0;
-    font-size: 1rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #BCC5D3;
-    padding-top: 6px;
-
-}
-
-.modul1 h1 {
+/*Fontene til modulernes H1 og P*/
+.modul h1 {
     margin: 0;
     font-size: 1.2rem;
     font-family: canada-type-gibson, sans-serif;
@@ -536,7 +499,7 @@ input[type=facebook] {
     padding-left: 5px;
 }
 
-.modul1 p {
+.modul p {
     margin: 0;
     font-size: 0.8rem;
     font-family: canada-type-gibson, sans-serif;
@@ -547,31 +510,19 @@ input[type=facebook] {
     padding-left: 5px;
 }
 
+/*Grå boks der ligger i mellem modulerne*/
 .fyld {
     width: 100%;
     height: 19px;
     background-color: #faf7f7;
 }
 
+/*Modul 2 parent div*/
 .del4 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 120px;
-}
-
-
-
-.tid3 {
-    border: solid 1px lightgray;
-    width: 90px;
-    height: 60px;
-}
-
-.tid4 {
-    border: solid 1px lightgray;
-    width: 90px;
-    height: 60px;
 }
 
 .modul2 {
@@ -582,67 +533,7 @@ input[type=facebook] {
     flex-direction: column;
 }
 
-.tid3 p {
-    margin: 0;
-    font-size: 1rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #BCC5D3;
-    padding-top: 6px;
-
-}
-
-.tid4 p {
-    margin: 0;
-    font-size: 1rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #BCC5D3;
-    padding-top: 6px;
-
-}
-
-.modul2 h1 {
-    margin: 0;
-    font-size: 1.2rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-style: semi-bold;
-    font-weight: 100;
-    text-align: left;
-    color: black;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-
-.modul2 p {
-    margin: 0;
-    font-size: 0.8rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: black;
-    padding-left: 5px;
-}
-
-.fyld1 {
-    width: 100%;
-    height: 19px;
-    background-color: #faf7f7;
-}
-
-
-
-
-
+/*modul 3 parent div*/
 .del5 {
     display: flex;
     flex-wrap: wrap;
@@ -650,19 +541,6 @@ input[type=facebook] {
     height: 120px;
 }
 
-
-
-.tid5 {
-    border: solid 1px lightgray;
-    width: 90px;
-    height: 60px;
-}
-
-.tid6 {
-    border: solid 1px lightgray;
-    width: 90px;
-    height: 60px;
-}
 
 .modul3 {
     height: 60px;
@@ -672,6 +550,7 @@ input[type=facebook] {
     flex-direction: column;
 }
 
+/*De blanke div bokse der ligger i bunden*/
 .modul_blank {
     height: 60px;
     width: 285px;
@@ -681,63 +560,7 @@ input[type=facebook] {
     flex-direction: column;
 }
 
-.tid5 p {
-    margin: 0;
-    font-size: 1rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #BCC5D3;
-    padding-top: 6px;
-
-}
-
-.tid6 p {
-    margin: 0;
-    font-size: 1rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #BCC5D3;
-    padding-top: 6px;
-
-}
-
-.modul3 h1 {
-    margin: 0;
-    font-size: 1.2rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-style: semi-bold;
-    font-weight: 100;
-    text-align: left;
-    color: black;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-
-.modul3 p {
-    margin: 0;
-    font-size: 0.8rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: black;
-    padding-left: 5px;
-}
-
-.fyld2 {
-    width: 100%;
-    height: 19px;
-    background-color: #faf7f7;
-}
-
+/*div til de 2 sidste blanke diver*/
 .del6 {
     display: flex;
     flex-wrap: wrap;
@@ -745,65 +568,7 @@ input[type=facebook] {
     height: 120px;
 }
 
-
-
-.tid7 {
-    border: solid 1px lightgray;
-    width: 90px;
-    height: 60px;
-}
-
-.tid8 {
-    border: solid 1px lightgray;
-    width: 90px;
-    height: 60px;
-}
-
-.modul_blank1 {
-    height: 60px;
-    width: 285px;
-    display: flex;
-    flex-direction: column;
-    border: solid 1px lightgray;
-}
-
-.modul_blank2 {
-    height: 60px;
-    width: 285px;
-    background-color: white;
-    border: solid 1px lightgray;
-    display: flex;
-    flex-direction: column;
-}
-
-.tid7 p {
-    margin: 0;
-    font-size: 1rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #BCC5D3;
-    padding-top: 6px;
-
-}
-
-.tid8 p {
-    margin: 0;
-    font-size: 1rem;
-    font-family: canada-type-gibson, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #BCC5D3;
-    padding-top: 6px;
-
-}
-
+/*footeren også brugt i materialer*/
 .fod {
     width: 375px;
     margin: 0 auto;
@@ -812,6 +577,7 @@ input[type=facebook] {
     display: flex;
 }
 
+/*div i footeren til skema ikon og tekst også brugt i materialer*/
 .del7 {
     display: flex;
     color: white;
@@ -819,6 +585,7 @@ input[type=facebook] {
     width: 100%;
 }
 
+/*Skema i footeren font også brugt i materialer*/
 .del7 p {
     padding-left: 10px;
     font-family: canada-type-gibson, sans-serif;
@@ -826,8 +593,8 @@ input[type=facebook] {
     font-weight: 100;
 }
 
-/*=================================================================                                    6. MATERIALER:                    ================================================================;*/
-
+/*=================================================================                                    5. MATERIALER:                    ================================================================;*/
+/*Materialer section*/
 #materialer {
     display: flex;
     flex-wrap: wrap;
@@ -835,6 +602,7 @@ input[type=facebook] {
     margin: 0 auto;
 }
 
+/*Parent div til boksene/div'erne*/
 .materialer_con {
     display: flex;
     width: 100%;
@@ -842,7 +610,8 @@ input[type=facebook] {
     flex-direction: column;
 }
 
-.slides_div1 {
+/*Diverne (grå bokse) */
+.slides {
     display: flex;
     align-self: center;
     width: 95%;
@@ -851,24 +620,7 @@ input[type=facebook] {
     margin-top: 20px;
 }
 
-.slides_div2 {
-    display: flex;
-    align-self: center;
-    width: 95%;
-    height: 80px;
-    background-color: #F2F1F0;
-    margin-top: 20px;
-}
-
-.styletile {
-    display: flex;
-    align-self: center;
-    width: 95%;
-    height: 80px;
-    background-color: #F2F1F0;
-    margin-top: 20px;
-}
-
+/*h1 materialers font*/
 .h1_materialer {
     margin: 0;
     font-size: 1rem;
@@ -881,6 +633,7 @@ input[type=facebook] {
     padding-left: 5px;
 }
 
+/*p materialers font*/
 .p_materialer {
     margin: 0;
     font-size: 0.8rem;
@@ -893,7 +646,7 @@ input[type=facebook] {
     margin-top: 10px;
 }
 
-
+/*div til at få ikonet til at flexe og ligge til højre i billedet*/
 .download_con {
     display: flex;
     flex-wrap: wrap;
@@ -905,10 +658,7 @@ input[type=facebook] {
     padding-left: 315px;
 }
 
-.down_asset2 {
-    float: right;
-}
-
+/*indstillinger til styletile så papirsklippen flexer rigtigt*/
 .styletile {
     display: flex;
     flex-wrap: wrap;
@@ -920,6 +670,7 @@ input[type=facebook] {
     padding-right: 20px;
 }
 
+/*tomme (hvide) box, der gør at footeren ligger i bunden*/
 .white_space {
     width: 100%;
     height: 200px;
